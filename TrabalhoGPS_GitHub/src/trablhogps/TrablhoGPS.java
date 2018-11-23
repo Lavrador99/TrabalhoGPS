@@ -11,7 +11,7 @@ import trablhogps.Dados.Data;
  *
  * Rafael Alexandre
  * Bernardo123
- * 
+ * QWER
  * @author Asus
  */
 public class TrablhoGPS {
