@@ -10,7 +10,7 @@ import trablhogps.Dados.Data;
 /**
  *
  * Rafael Alexandre
- * Bernardo fds
+ *
  * 
  * @author Asus
  */
