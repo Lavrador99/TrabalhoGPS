@@ -9,6 +9,9 @@ import trablhogps.Dados.Data;
 
 /**
  *
+ * Rafael Alexandre
+ * 
+ * 
  * @author Asus
  */
 public class TrablhoGPS {
