@@ -74,11 +74,11 @@ public class Aposta {
         this.Numeros = get;
     }
     
-
         void setEstrela(ArrayList<Integer> get) {
         this.Estrelas = get;
-        }
-        
-
+    }
+    
+    
     
 }
+

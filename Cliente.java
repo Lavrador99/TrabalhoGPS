@@ -11,7 +11,6 @@ package trablhogps.Dados;
  */
 public class Cliente {
 
-
     /**
      * @return the historico
      */
@@ -29,9 +28,7 @@ public class Cliente {
     private String Password;
     private double ValorPlafond;
     private Historico historico;
-
     
-   
     public Cliente(String username,String password){
         this.Username = username;
         this.Password = password;

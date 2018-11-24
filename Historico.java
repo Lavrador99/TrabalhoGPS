@@ -14,7 +14,6 @@ import java.util.List;
  */
 public class Historico {
     private List<Aposta> historico;
-
     private int TotalGanho;
     private int TotalGasto;
     
@@ -63,20 +62,6 @@ public class Historico {
      * @param TotalGasto the TotalGasto to set
      */
     public void setTotalGasto(int TotalGasto) {
-        for(Aposta x : historico){
-            this.TotalGanho += x.getGanhos();
-        }
-    }
-
-    /**
-     * @return the TotalGasto
-     */
-
-    /**
-     * @param TotalGasto the TotalGasto to set
-     */
-    public void setTotalGasto(double TotalGasto) {
-
          for(Aposta x : historico){
             this.TotalGanho += x.getGanhos();
         }
