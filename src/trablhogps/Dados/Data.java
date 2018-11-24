@@ -7,6 +7,8 @@ package trablhogps.Dados;
 
 import java.io.*;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -112,5 +114,43 @@ public class Data {
     
     
     }
+     
+     
+     public Cliente RecolheDados(){
+         Cliente s=null;
+         String user=null,Pass=null;
+         boolean valid = false;
+         
+         Scanner sc = new Scanner(System.in);
+         
+         while(!valid){
+         System.out.println("Insira o seu Username: ");
+         user = sc.next();
+         Pattern p = Pattern.compile("[^A-Za-z0-9]");
+         Matcher m = p.matcher(user);
+         
+         if(user.length()>= 5 && user.length()<=20 ){
+         if( m.find() == false){
+             
+         }
+        }     
+}
+        while(!valid){
+         System.out.println("Insira o seu Password: ");
+         Pass = sc.next();
+         Pattern p = Pattern.compile("[^A-Za-z0-9]");
+         Matcher m = p.matcher(Pass);
+         
+         if(Pass.length()>= 5 && Pass.length()<=20 ){
+         if( m.find() == false){
+             valid= true;
+         }
+        }
+        }
+        
+        s= new Cliente(user,Pass);
+             
+        return s;
     
+}
 }
