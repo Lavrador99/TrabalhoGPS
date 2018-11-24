@@ -5,6 +5,7 @@
  */
 package trablhogps.Estados;
 
+import trablhogps.Dados.Cliente;
 import trablhogps.Dados.Data;
 
 
@@ -19,7 +20,10 @@ public class AwaitRegisto extends StateAdapter {
         super(dados);
     }
        public IStates CriaCliente (){
-           
+           Cliente c =null;
+          c= getDados().RecolheDados();
+          
+          return new Start(getDados());
        }
        
 }
