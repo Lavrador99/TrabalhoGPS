@@ -78,6 +78,7 @@ public class Aposta {
         void setEstrela(ArrayList<Integer> get) {
         this.Estrelas = get;
         }
+        sdfsdafsadfasdfsaf
         
 
     
